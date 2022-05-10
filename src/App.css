@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: lightgoldenrodyellow;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: chocolate;
+  justify-content: space-around;
+}
+
+.cards {
+  border: 1px solid white;
+  padding: 20px;
+  text-align: left;
+  background-color: #fff;
+}
+.cards button {
+  padding: 5px;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+}
+.cards button :active {
+  transform: translateY(2px);
+  transition: all 2s;
+}
